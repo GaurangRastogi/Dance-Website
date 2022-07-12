@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Roboto+Mono&display=swap');
+*{
+    margin:0;
+    box-sizing: border-box;
+    padding: 0;
+}
+#navbar{
+    background-color:#d43b3b;
+    padding:15px 20px;
+    font-family: 'Roboto Mono', monospace;
+}
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#navbar li{
+    list-style:none;
+}
+#navbar li a{
+    color:white;
+    text-decoration: none;
+    padding:12px 20px;
+    font-size: 20px;
+}
+#navbar li a:hover{
+    color:black;
+    font-weight: bold;
+}
+#introSection{
+    color:white;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: center / cover no-repeat url("/static/bg.jpg");
+    height:450px;
+    padding-bottom:40px;
+}
+#introSection div.small{
+    font-size:27px;
+    padding: 5px;
+}
+#missionSection{
+    display:block;
+    margin:auto;
+    height:400px;
+    width: auto;
+    text-align:center;
+    padding-top:12px;
+    font-family: 'Roboto Mono', monospace;
+    
+}
+.card{
+    display: inline-block;
+    border:2px solid black;
+    background-color: #f8cfcf;
+    border-radius: 10px;
+    margin:25px 25px;
+    width:30%;
+    height:250px;
+}
+.card h3{
+    font-family: 'Roboto Mono', monospace;
+    text-align: center;
+    margin:12px;
+    font-weight: bolder;
+}
+.card-img{
+    display:flex;
+}
+.card-img img{
+    display: block;
+    height: 80%;
+    width: 20%;
+    margin:10px;
+    font-family: 'Roboto Mono', monospace;
+}
+.card-img h4{
+    display: block;
+    margin:auto;
+    justify-content: center;
+    align-items: center;
+}
+#sponsorsSection{
+    height:300px;
+    background-color: #fbd6d6c7;
+}
+#sponsorsSection h2{
+    text-align:center;
+    padding-top:12px;
+    font-family: 'Roboto Mono', monospace;
+}
+#sponsors{
+    display: flex;
+    margin-left: 400px;
+    width:50%;
+    height:50%;
+}
+#sponsors img{
+    display: block;
+    padding:50px;
+}
+#footer{
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Roboto Mono', monospace;
+    height:50px;
+    color: azure;
+    background-color: black;
+
+}
+#footer h3{
+    margin: 5px;
+}

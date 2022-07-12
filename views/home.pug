@@ -1,0 +1,38 @@
+extends base.pug
+
+block scripts 
+    script(src='/static/index.js')
+block style 
+    style 
+        include ../static/style.css
+
+block content
+    section#introSection 
+        div Welcome to The Indian Dance Academy 
+        div.small     Eat Sleep Dance Repeat
+    section#missionSection
+        h2 Our mission
+        div.card   
+            h3 Dance Perfection
+            div.card-img 
+                img(src='../static/1.jpg')
+                h4  Dance Buddy, Live Longer
+        div.card
+            h3 Dance the way you like
+            div.card-img
+                img(src='../static/2.jpg')
+                h4  Leave all your hesitation, express your feeling as dance
+        div.card 
+            h3 Expert Teaching
+            div.card-img 
+                img(src='../static/3.jpg')
+                h4  Learn while you learn, play while you play
+    section#sponsorsSection 
+        h2 Our Sponsors
+        div#sponsors
+            img(src="../static/apple.svg")
+            img(src="../static/lamborghini.svg")
+            img(src="../static/tesla-motors.svg")
+            img(src="../static/google.svg")
+    script
+      include ../static/index.js
